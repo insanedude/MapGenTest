@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.ben-w.erp", "com.ben-w.erp.csproj", "{fce8cd73-db67-abf5-c6e8-d6d3adba50af}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{62d2aca5-a8b6-02a6-09e3-c7248c09e86d}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{4e90e657-6372-5282-5bea-48e914968b78}"
@@ -10,6 +12,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{fce8cd73-db67-abf5-c6e8-d6d3adba50af}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{fce8cd73-db67-abf5-c6e8-d6d3adba50af}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62d2aca5-a8b6-02a6-09e3-c7248c09e86d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{62d2aca5-a8b6-02a6-09e3-c7248c09e86d}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4e90e657-6372-5282-5bea-48e914968b78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

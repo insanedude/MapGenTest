@@ -31,8 +31,8 @@ namespace Data
 
         public void UpdateMeshHeights(Material material, float minHeight, float maxHeight)
         {
-            // savedMinHeight = minHeight;
-            // savedMaxHeight = maxHeight;
+            savedMinHeight = minHeight;
+            savedMaxHeight = maxHeight;
             
             material.SetFloat("minHeight", minHeight);
             material.SetFloat("maxHeight", maxHeight);
